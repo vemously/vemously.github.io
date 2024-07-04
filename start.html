@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo4.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#About">About Me</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact Me</a></li> 
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>STUDENT FREELANCER</p>
+                <h1>Hi, I am <span>James</span> Benedict<br>from Cebu City, Philippines</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------About------------>
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" class="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Title">About Me</h1>
+                    <p class="Information">I am James Benedict C. Arnoco, <span style="color:rgb(201, 88, 88);">I am 18 years old</span>. I recently graduated as <br>
+                    Senior High School in Asian College of Technology - International Educational Foundation.<br>
+                    I am a tech-savvy person, from just playing computer games when I was young then learning<br>
+                    about the software tools, hardware, and basic computer trouble shooting. I am very confident with<br>
+                    my typing skills having a 105 WPM in Letter Typing Test and 43 in Number Typing Test. Personality
+                    wise I would say I am very outgoing person and is willing to take any challenges to learn and have a
+                    personal growth.
+                    </p>
+
+                    <div class="info-table">
+                        <p class="info-list active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="info-list" onclick="opentab('Education')">Education</p>
+                        <p class="info-list" onclick="opentab('Achievements')">Achievements</p>
+                    </div>
+                    <div class="table-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Social Media Literate</span><br>
+                                Social Media Advertising
+                            </li>
+                            <li><span>Editor</span><br>
+                                Editing using Photoshop, Photopea, Gimp, Paint.net
+                            </li>
+                            <li><span>Typing Skills</span><br>
+                                I am a fast typer with high accuracy to be provided in Portfolio.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="table-contents" id="Education">
+                        <ul>
+                            <li><span>Tejero Elementary School 2012-2018</span><br>
+                                With Honors
+                            </li>
+                            <li><span>Tejero High School 2018-2022</span><br>
+                                With Honors
+                            </li>
+                            <li><span>Asian College of Technology - IEF 2022-2024</span><br>
+                                With High Honors
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="table-contents" id="Achievements">
+                        <ul>
+                            <li><span>Best in Work Immersion</span><br>
+                                August 2023 - September 2023
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Services------------------>
+    <div id="Services">
+        <div class="container">
+            <h1 class="service-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>I am proficient in Front-End using HTML, CSS and JS</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Photo Editing</h2>
+                    <p>I am proficient in using Photoshop, Photopea, Gimp and Paint.net <br> in editing photos.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-keyboard"></i>
+                    <h2>Data Entry</h2>
+                    <p>I am confident that I am a fast typer with a high accuracy.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>'
+    <!-----------Portfolio------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="MyWork">My Works</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="website.png" alt="Web">
+                <div class="layer">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Website Designing</h3>
+                    <p>I use HTML, CSS and JavaScript in making the front-end for a website.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photo-editing.jpg" alt="photo">
+                <div class="layer">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photo Editing</h3>
+                    <p>I commonly use Photoshop and Photopea in editing images.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="typing.png" alt="NA">
+                <div class="layer">
+                    <i class="fa-regular fa-keyboard"></i>
+                    <h3>Typing</h3>
+                    <p>To confirm my typing test I use typingtest.com and monkeytype for the proper accuracy and validity.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn see">See More</a>
+       </div>
+    </div>
+    <!----------Contact------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="Contact-Title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>jamesarnoco2006@gmail.com</p>
+                    <p><i class="fa-solid fa-address-book"></i>09671893741</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jamesarnoco123"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/pantaleon.88/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="resume-job.docx" class="btn btn2" download>Download CV</a>
+                    </div>
+                    <div class="contacts-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Enter Your Name" required>
+                            <input type="email" name="Email" placeholder="Enter Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Enter Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copywrite">
+        <p>Made by James Benedict C. Arnoco on July 04, 2024<i class="fa-regular fa-copyright"></i></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/860443911f.js" crossorigin="anonymous"></script>
+</body>
+</html>
